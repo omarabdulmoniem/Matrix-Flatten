@@ -1,14 +1,14 @@
 # Matrix-Flatten
 
-*flatten formula: oneD[i + height * (j + width * k)] = threeD[i][j][k]
-*i is the variable used to traverse columns (height)
-*j is the variable used to traverse rows (width)
-*k is the variable used to traverse depth
+* flatten formula: oneD[i + height * (j + width * k)] = threeD[i][j][k]
+* i is the variable used to traverse columns (height)
+* j is the variable used to traverse rows (width)
+* k is the variable used to traverse depth
 
 # Understading how to flatten 2D array first
 
 To flatten a 2D array we use the formula:
-*oneD[i + j * height] = twoD[i][j]
+* oneD[i + j * height] = twoD[i][j]
 it starts traversing the array column by column starting with the twoD[0][0] then twoD[1][0] then twoD[2][0]
 and so on.
 
@@ -19,7 +19,7 @@ and traverse through the variable k in the algorithm so it starts traversing the
 in every 2D layer then the second element in the same column in every 2D layer then the third element and so on till the end of 
 the column and then moves to the next column and repeats the process till the end of the 3D matrix.
 
-*indexing: offset = i + height * (j + width * k)
+* indexing: offset = i + height * (j + width * k)
 
  # Algorithm
  flatten(arr[height][width][depth])
