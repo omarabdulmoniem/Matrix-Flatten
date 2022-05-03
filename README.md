@@ -1,6 +1,6 @@
 # Matrix-Flatten
 
-* flatten formula: oneD[i + height * (j + width * k)] = threeD[i][j][k]
+* Flattening formula: oneD[i + height * (j + width * k)] = threeD[i][j][k]
 * i is the variable used to traverse columns (height)
 * j is the variable used to traverse rows (width)
 * k is the variable used to traverse depth
