@@ -9,7 +9,7 @@
 
 To flatten a 2D array we use the formula:
 * oneD[i + j * height] = twoD[i][j]
-it starts traversing the array column by column starting with the twoD[0][0], twoD[1][0]
+it starts traversing the array column by column starting with the twoD[0][0] then twoD[1][0]
 then twoD[2][0] and so on.
 
 # The way to flatten a 3D array
